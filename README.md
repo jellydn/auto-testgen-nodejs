@@ -14,7 +14,7 @@ pnpm install
 
 ### Setup
 
-1. First, add the Pythagora API key to your environment using the command:
+1. First, add the [Pythagora](https://github.com/Pythagora-io/pythagora) API key to your environment using the command:
 
 ```sh
 npx pythagora --config --pythagora-api-key YOUR_API_KEY
@@ -32,6 +32,16 @@ npx pythagora --unit-tests --func sum --path dist/index.js
 
 In the above command, replace `divide` with the name of the function you want to test and `dist/index.js` with the path to the file that contains the function. The tool will automatically create a unit test for the specified function.
 
+## Author
+
+- Website: https://productsway.com/
+- Twitter: [@jellydn](https://twitter.com/jellydn)
+- Github: [@jellydn](https://github.com/jellydn)
+
 ## Show your support
+
+[![kofi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/dunghd)
+[![paypal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/dunghd)
+[![buymeacoffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/dunghd)
 
 Give a ⭐️ if this project helped you!
