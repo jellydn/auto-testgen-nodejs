@@ -12,8 +12,8 @@ devDependencies:
     specifier: 0.32.2
     version: 0.32.2(vitest@0.32.2)
   pythagora:
-    specifier: 0.0.66
-    version: 0.0.66
+    specifier: 0.0.67
+    version: 0.0.67
   tsup:
     specifier: 7.0.0
     version: 7.0.0(typescript@5.1.3)
@@ -3483,10 +3483,11 @@ packages:
     resolution: {integrity: sha512-6Yg0ekpKICSjPswYOuC5sku/TSWaRYlA0qsXqJgM/d/4pLPHPuTxK7Nbf7jFKzAeedUhR8C7K9Uv63FBsSo8xQ==}
     dev: true
 
-  /pythagora@0.0.66:
-    resolution: {integrity: sha512-/WQUtsgLNkiaoRChDxAHmAUUnhmrl0vVBmLJYg5T632l++0ua9MldfralppilxFcPxpBXatQ1j3ZNjR2AwhcoA==}
+  /pythagora@0.0.67:
+    resolution: {integrity: sha512-uPouE5FwQKxWQgsmFkofCYitjrIw7SnRl2jkeEGhBYcxuQYBGnTqF0rfIuWvjq2vtTtg8PQXP9WEjdi7dY8O0w==}
     engines: {node: '>=14.x'}
     hasBin: true
+    requiresBuild: true
     dependencies:
       '@babel/generator': 7.22.5
       '@babel/parser': 7.22.5
