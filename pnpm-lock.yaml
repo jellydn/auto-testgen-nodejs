@@ -12,8 +12,8 @@ devDependencies:
     specifier: 0.33.0
     version: 0.33.0(vitest@0.33.0)
   pythagora:
-    specifier: 0.0.75
-    version: 0.0.75
+    specifier: 0.0.76
+    version: 0.0.76
   tsup:
     specifier: 7.1.0
     version: 7.1.0(typescript@5.1.6)
@@ -3431,8 +3431,8 @@ packages:
     resolution: {integrity: sha512-6Yg0ekpKICSjPswYOuC5sku/TSWaRYlA0qsXqJgM/d/4pLPHPuTxK7Nbf7jFKzAeedUhR8C7K9Uv63FBsSo8xQ==}
     dev: true
 
-  /pythagora@0.0.75:
-    resolution: {integrity: sha512-8ZMjTxubkE380HTcCBH3zxr4OqdYXOL761NBOR7oUIexaLIDph6WBP7d+ZeqelIioo/gXSPGztYLgdS94r2QMA==}
+  /pythagora@0.0.76:
+    resolution: {integrity: sha512-5qchrtUkepVlm+/ea4pcc+WvxsOxfxEzKTRRRYki+GPKypb6eqsIpcOuO18vroNJZTbECIGhedVeYjsjr6xTow==}
     engines: {node: '>=14.x'}
     hasBin: true
     requiresBuild: true
