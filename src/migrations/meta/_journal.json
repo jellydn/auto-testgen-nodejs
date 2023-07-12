@@ -1,0 +1,27 @@
+{
+  "version": "5",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1689205118275,
+      "tag": "0000_tiresome_cargill",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1689205371295,
+      "tag": "0001_lethal_omega_sentinel",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1689205434467,
+      "tag": "0002_sparkling_wild_pack",
+      "breakpoints": true
+    }
+  ]
+}
