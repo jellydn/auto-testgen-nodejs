@@ -12,12 +12,12 @@
     "test:ui": "vitest --ui"
   },
   "dependencies": {
-    "@libsql/client": "^0.3.0",
-    "dotenv": "^16.3.1",
-    "drizzle-kit": "^0.19.5",
-    "drizzle-orm": "^0.27.2",
-    "znv": "^0.3.2",
-    "zod": "^3.21.4"
+    "@libsql/client": "0.3.0",
+    "dotenv": "16.3.1",
+    "drizzle-kit": "0.19.5",
+    "drizzle-orm": "0.27.2",
+    "znv": "0.3.2",
+    "zod": "3.21.4"
   },
   "devDependencies": {
     "@vitest/coverage-v8": "0.33.0",
