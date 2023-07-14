@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX `sqlite_autoindex_users_1` ON `users` (`id`);
