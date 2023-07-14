@@ -5,11 +5,18 @@
   "main": "index.js",
   "scripts": {
     "build": "tsup && mv dist/index.mjs dist/index.js",
+    "check": "drizzle-kit check:sqlite",
+    "dev": "npx grafbase dev",
+    "drop": "drizzle-kit drop",
     "generate": "drizzle-kit generate:sqlite",
+    "help": "drizzle-kit help",
+    "introspect": "drizzle-kit introspect:sqlite",
     "push": "drizzle-kit push:sqlite",
+    "studio": "drizzle-kit studio",
     "test": "vitest",
     "test:coverage": "vitest --coverage",
-    "test:ui": "vitest --ui"
+    "test:ui": "vitest --ui",
+    "up": "drizzle-kit up:sqlite"
   },
   "dependencies": {
     "@libsql/client": "0.3.0",
@@ -20,6 +27,7 @@
     "zod": "3.21.4"
   },
   "devDependencies": {
+    "@grafbase/sdk": "~0.1.0",
     "@vitest/coverage-v8": "0.33.0",
     "@vitest/ui": "0.33.0",
     "pythagora": "0.0.78",
