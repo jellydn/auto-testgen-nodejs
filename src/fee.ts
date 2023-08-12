@@ -23,7 +23,10 @@ export function calculateFee({
       fee = (feeSetting.feeValue / 1000) * tokenQty;
       break;
     case 'PERCENTAGE':
+      if (feeSetting.feeValue > 100) throw new Error('feeValue must be less than 100');
+      if (feeSetting.feeValue < 0) throw new Error('feeValue must be greater than 0');
       if (!totalAmount) throw new Error('totalAmount is required');
+
       fee = (feeSetting.feeValue / 100) * totalAmount;
       break;
     default:
