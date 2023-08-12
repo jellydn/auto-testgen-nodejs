@@ -38,6 +38,12 @@ npx pythagora --unit-tests --func divide --path dist/index.js
 
 In the above command, replace `divide` with the name of the function you want to test and `dist/index.js` with the path to the file that contains the function. The tool will automatically create a unit test for the specified function.
 
+## Plan/Todo
+
+- [ ] Add example/guide with [integration test](https://github.com/Pythagora-io/pythagora/blob/main/src/docs/integration/README.md)
+- [ ] Add example with GraphQL ([Grafbase - Instant GraphQL APIs for your data](https://grafbase.com/))
+- [ ] Add example with DB ([DrizzleORM - next gen TypeScript ORM](https://orm.drizzle.team/))
+
 ## Author
 
 - Website: https://productsway.com/
