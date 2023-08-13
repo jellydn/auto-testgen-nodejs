@@ -2,38 +2,75 @@ import { describe, test, expect } from "vitest";
 
 import { calculateFee } from "../fee";
 
-
-describe('calculateFee function', () => {
-  const feeSetting = {
-    collectionType: "",
-    feeValue: 1000
-  };
-  test('should correctly calculate fixed amount fee', () => {
-    feeSetting.collectionType = "FIXED_AMOUNT";
-    expect(calculateFee({ feeSetting })).toBe(1000);
+describe("calculateFee()", () => {
+  test("calculateFee() should throw error when feeSetting.collectionType is invalid", () => {
+    const fn = () =>
+      calculateFee({
+        feeSetting: { collectionType: "INVALID_TYPE", feeValue: 10 },
+        totalAmount: 100,
+        tokenQty: 10,
+      });
+    expect(fn).toThrowError("Invalid collection type: INVALID_TYPE");
   });
 
-  test('should correctly calculate per thousand fee', () => {
-    feeSetting.collectionType = "PER_THOUSAND";
-    feeSetting.feeValue = 1; // 1 cent per thousand
-    expect(calculateFee({ feeSetting, tokenQty: 5000 })).toBe(5);
-
-    expect(() => calculateFee({ feeSetting })).toThrow('tokenQty is required');
+  test("calculateFee() should process FIXED_AMOUNT correctly", () => {
+    const fee = calculateFee({
+      feeSetting: { collectionType: "FIXED_AMOUNT", feeValue: 10 },
+      totalAmount: 100,
+      tokenQty: 10,
+    });
+    expect(fee).toBe(10);
   });
 
-  test('should correctly calculate percentage fee', () => {
-    feeSetting.collectionType = "PERCENTAGE";
-    feeSetting.feeValue = 3; // 1%
-    expect(calculateFee({
-      feeSetting,
-      totalAmount: 10000 // ten thousand usd
-    })).toBe(300); // three hundred usd
-
-    expect(() => calculateFee({ feeSetting })).toThrow('totalAmount is required');
+  test("calculateFee() should throw error when tokenQty is missing from PER_THOUSAND", () => {
+    const fn = () =>
+      calculateFee({
+        feeSetting: { collectionType: "PER_THOUSAND", feeValue: 10 },
+        totalAmount: 100,
+      });
+    expect(fn).toThrowError("tokenQty is required");
   });
 
-  test('should throw error on invalid collection type', () => {
-    feeSetting.collectionType = "INVALID_TYPE";
-    expect(() => calculateFee({ feeSetting })).toThrow(`Invalid collection type: ${feeSetting.collectionType}`);
+  test("calculateFee() should process PER_THOUSAND correctly", () => {
+    const fee = calculateFee({
+      feeSetting: { collectionType: "PER_THOUSAND", feeValue: 10 },
+      totalAmount: 100,
+      tokenQty: 10,
+    });
+    expect(fee).toBe(0.1);
+  });
+
+  test("calculateFee() should throw error when feeValue exceeds 100 in PERCENTAGE", () => {
+    const fn = () =>
+      calculateFee({
+        feeSetting: { collectionType: "PERCENTAGE", feeValue: 101 },
+        totalAmount: 100,
+      });
+    expect(fn).toThrowError("feeValue must be less than 100");
+  });
+
+  test("calculateFee() should throw error when feeValue is less than 0 in PERCENTAGE", () => {
+    const fn = () =>
+      calculateFee({
+        feeSetting: { collectionType: "PERCENTAGE", feeValue: -1 },
+        totalAmount: 100,
+      });
+    expect(fn).toThrowError("feeValue must be greater than 0");
+  });
+
+  test("calculateFee() should throw error when totalAmount is missing from PERCENTAGE", () => {
+    const fn = () =>
+      calculateFee({
+        feeSetting: { collectionType: "PERCENTAGE", feeValue: 10 },
+      });
+    expect(fn).toThrowError("totalAmount is required");
+  });
+
+  test("calculateFee() should process PERCENTAGE correctly", () => {
+    const fee = calculateFee({
+      feeSetting: { collectionType: "PERCENTAGE", feeValue: 10 },
+      totalAmount: 100,
+    });
+    expect(fee).toBe(10);
   });
 });
