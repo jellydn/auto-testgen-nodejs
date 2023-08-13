@@ -35,12 +35,14 @@ This command will store your Pythagora API key in a config file which will be us
 2. To generate unit tests for a specific function in your Node.js application, use the following command:
 
 ```sh
-npx pythagora --unit-tests --func divide --path dist/index.js
+npx pythagora --unit-tests --func divide --path src/math.ts
 ```
 
-[![Image from Gyazo](https://i.gyazo.com/69471b22021906b35afc8afc9c2c8c6a.png)](https://gyazo.com/69471b22021906b35afc8afc9c2c8c6a)
+<video src="demo.mp4" controls title="Generate Unit tests from Typescript file"></video>
 
-In the above command, replace `divide` with the name of the function you want to test and `dist/index.js` with the path to the file that contains the function. The tool will automatically create a unit test for the specified function.
+In the above command, replace `divide` with the name of the function you want to test and `src/math.ts` with the path to the file that contains the function. The tool will automatically create a unit test for the specified function.
+
+_Note_: Pythagora support [Typescript](https://github.com/Pythagora-io/pythagora/issues/10) file since version 0.0.36
 
 ## Plan/Todo
 
