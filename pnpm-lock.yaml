@@ -18,8 +18,8 @@ dependencies:
     specifier: 0.28.5
     version: 0.28.5(@libsql/client@0.3.2)
   znv:
-    specifier: 0.3.2
-    version: 0.3.2(zod@3.22.2)
+    specifier: 0.4.0
+    version: 0.4.0(zod@3.22.2)
   zod:
     specifier: 3.22.2
     version: 3.22.2
@@ -4908,10 +4908,10 @@ packages:
     engines: {node: '>=12.20'}
     dev: true
 
-  /znv@0.3.2(zod@3.22.2):
-    resolution: {integrity: sha512-dyQ2gfDe5RgEL7hKue1dFswmy4vzb/SRnLLRHaHNm39JteKstFs47I0nevlEa3oOWNMJ7XB4V1l/IdcLezPwoA==}
+  /znv@0.4.0(zod@3.22.2):
+    resolution: {integrity: sha512-6/pGsQhBisLzKdyC90mUCRgYDtCfQ4aQ68sDybexq3GMzqqkp662GH6qIyuCHJC1i72hJPHbWAhccTJVuZUQfA==}
     peerDependencies:
-      zod: ^3.11.6
+      zod: ^3.13.2
     dependencies:
       colorette: 2.0.20
       zod: 3.22.2
