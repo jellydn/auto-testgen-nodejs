@@ -19,10 +19,10 @@ dependencies:
     version: 0.28.6(@libsql/client@0.3.5)
   znv:
     specifier: 0.4.0
-    version: 0.4.0(zod@3.22.3)
+    version: 0.4.0(zod@3.22.4)
   zod:
-    specifier: 3.22.3
-    version: 3.22.3
+    specifier: 3.22.4
+    version: 3.22.4
 
 devDependencies:
   '@grafbase/sdk':
@@ -1889,7 +1889,7 @@ packages:
       hanji: 0.0.5
       json-diff: 0.9.0
       minimatch: 7.4.6
-      zod: 3.22.3
+      zod: 3.22.4
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -4614,15 +4614,15 @@ packages:
     engines: {node: '>=12.20'}
     dev: true
 
-  /znv@0.4.0(zod@3.22.3):
+  /znv@0.4.0(zod@3.22.4):
     resolution: {integrity: sha512-6/pGsQhBisLzKdyC90mUCRgYDtCfQ4aQ68sDybexq3GMzqqkp662GH6qIyuCHJC1i72hJPHbWAhccTJVuZUQfA==}
     peerDependencies:
       zod: ^3.13.2
     dependencies:
       colorette: 2.0.20
-      zod: 3.22.3
+      zod: 3.22.4
     dev: false
 
-  /zod@3.22.3:
-    resolution: {integrity: sha512-EjIevzuJRiRPbVH4mGc8nApb/lVLKVpmUhAaR5R5doKGfAnGJ6Gr3CViAVjP+4FWSxCsybeWQdcgCtbX+7oZug==}
+  /zod@3.22.4:
+    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
     dev: false
