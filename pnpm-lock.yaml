@@ -26,8 +26,8 @@ dependencies:
 
 devDependencies:
   '@grafbase/sdk':
-    specifier: 0.9.0
-    version: 0.9.0
+    specifier: 0.9.1
+    version: 0.9.1
   '@vitest/coverage-v8':
     specifier: 0.34.6
     version: 0.34.6(vitest@0.34.6)
@@ -41,8 +41,8 @@ devDependencies:
     specifier: 7.2.0
     version: 7.2.0(typescript@5.2.2)
   tsx:
-    specifier: 4.0.0
-    version: 4.0.0
+    specifier: 4.1.0
+    version: 4.1.0
   typescript:
     specifier: 5.2.2
     version: 5.2.2
@@ -858,8 +858,8 @@ packages:
     engines: {node: '>=14'}
     dev: false
 
-  /@grafbase/sdk@0.9.0:
-    resolution: {integrity: sha512-fM0x1Y5hSZJGPrJtFAW7Mlk9CmNgoZ3nFcOgeLUTpMrY7hFPmhfM4whCbCQMxCLHrtI58WQXdo4r5jBlocLxhA==}
+  /@grafbase/sdk@0.9.1:
+    resolution: {integrity: sha512-YlEibJSLdxzRMD0tStjd88AumH6liQ8SM2SOWr19JT55XkVlfx2qCS+MSmA+eNZnoOPqSrTDr1F5MC7OIAbKpw==}
     engines: {node: '>=16.13.0'}
     dependencies:
       dotenv: 16.3.1
@@ -4661,8 +4661,8 @@ packages:
       - ts-node
     dev: true
 
-  /tsx@4.0.0:
-    resolution: {integrity: sha512-jd3C5kw9tR68gtvqHUYo/2IwxaA46/CyKvcVQ4DsKRAPb19/vWgl7zF9mYNjFRY6KcGKiwne41RU91ll31IggQ==}
+  /tsx@4.1.0:
+    resolution: {integrity: sha512-u4l17Yd63Wsk2fzNn1wZCmcS9kwJ/2ysl7wuoVggv2hd3NjLA5JQPpyJMXoWSXOwOvoQUzNcu/sf/35HEsnXsg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     dependencies:
