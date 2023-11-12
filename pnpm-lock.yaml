@@ -12,8 +12,8 @@ dependencies:
     specifier: 16.3.1
     version: 16.3.1
   drizzle-kit:
-    specifier: 0.20.1
-    version: 0.20.1
+    specifier: 0.20.2
+    version: 0.20.2
   drizzle-orm:
     specifier: 0.29.0
     version: 0.29.0(@libsql/client@0.3.6)
@@ -2202,8 +2202,8 @@ packages:
       wordwrap: 1.0.0
     dev: false
 
-  /drizzle-kit@0.20.1:
-    resolution: {integrity: sha512-W6YAFeT15LcirtAbFmfKOjN+p0EhTW+8KZaPqIEz0VpkBrq3GbBUtaoYWa7l8OLzlOBY54XPG2fa9j+iv3pQRQ==}
+  /drizzle-kit@0.20.2:
+    resolution: {integrity: sha512-4iwjsIj2sY3B3MleKeyNzg/6myjXbTE/CBOXwfePoRVXayM3VwHGZboMkxUkmIQk6o7UAKRb2ODDpO24YNoL2g==}
     hasBin: true
     dependencies:
       '@drizzle-team/studio': 0.0.27
