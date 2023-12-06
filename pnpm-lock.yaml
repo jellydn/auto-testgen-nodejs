@@ -26,8 +26,8 @@ dependencies:
 
 devDependencies:
   '@grafbase/sdk':
-    specifier: 0.11.0
-    version: 0.11.0
+    specifier: 0.12.0
+    version: 0.12.0
   '@vitest/coverage-v8':
     specifier: 0.34.6
     version: 0.34.6(vitest@0.34.6)
@@ -39,13 +39,13 @@ devDependencies:
     version: 0.0.80
   tsup:
     specifier: 8.0.1
-    version: 8.0.1(typescript@5.3.2)
+    version: 8.0.1(typescript@5.3.3)
   tsx:
     specifier: 4.6.2
     version: 4.6.2
   typescript:
-    specifier: 5.3.2
-    version: 5.3.2
+    specifier: 5.3.3
+    version: 5.3.3
   vite:
     specifier: 5.0.6
     version: 5.0.6(@types/node@20.10.3)
@@ -1036,8 +1036,8 @@ packages:
     engines: {node: '>=14'}
     dev: false
 
-  /@grafbase/sdk@0.11.0:
-    resolution: {integrity: sha512-qdOsu+C0530AMXuoKlh0CXryHGdafTr/66LwpR9Yx/Iv7olISnMgQCFQE8WW3sXh1DkplxJ6zKJEvPDAb4sHOQ==}
+  /@grafbase/sdk@0.12.0:
+    resolution: {integrity: sha512-QxQTxd3YRLAl9k0VQ4ZRuRAGiBU3R6GUT5nB5R06rkGuviCsnbnfzgcnnV0orEfsF7vQXIQDx79ieit9Z1G1aw==}
     engines: {node: '>=16.13.0'}
     dependencies:
       dotenv: 16.3.1
@@ -4968,7 +4968,7 @@ packages:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
     dev: false
 
-  /tsup@8.0.1(typescript@5.3.2):
+  /tsup@8.0.1(typescript@5.3.3):
     resolution: {integrity: sha512-hvW7gUSG96j53ZTSlT4j/KL0q1Q2l6TqGBFc6/mu/L46IoNWqLLUzLRLP1R8Q7xrJTmkDxxDoojV5uCVs1sVOg==}
     engines: {node: '>=18'}
     hasBin: true
@@ -5001,7 +5001,7 @@ packages:
       source-map: 0.8.0-beta.0
       sucrase: 3.34.0
       tree-kill: 1.2.2
-      typescript: 5.3.2
+      typescript: 5.3.3
     transitivePeerDependencies:
       - supports-color
       - ts-node
@@ -5060,8 +5060,8 @@ packages:
       is-typedarray: 1.0.0
     dev: true
 
-  /typescript@5.3.2:
-    resolution: {integrity: sha512-6l+RyNy7oAHDfxC4FzSJcz9vnjTKxrLpDG5M2Vu4SHRVNg6xzqZp6LYSR9zjqQTu8DU/f5xwxUdADOkbrIX2gQ==}
+  /typescript@5.3.3:
+    resolution: {integrity: sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
