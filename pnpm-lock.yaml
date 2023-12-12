@@ -26,8 +26,8 @@ dependencies:
 
 devDependencies:
   '@grafbase/sdk':
-    specifier: 0.13.0
-    version: 0.13.0
+    specifier: 0.13.1
+    version: 0.13.1
   '@vitest/coverage-v8':
     specifier: 1.0.4
     version: 1.0.4(vitest@1.0.4)
@@ -1036,8 +1036,8 @@ packages:
     engines: {node: '>=14'}
     dev: false
 
-  /@grafbase/sdk@0.13.0:
-    resolution: {integrity: sha512-GE00CpQi9HM0OXwuw9SUiZeq/Gy2NxV6pKjAdo1ZKROa+/tpulj/vyP+457WunqUqaMwbJ+amjBvmi3KFfGZLg==}
+  /@grafbase/sdk@0.13.1:
+    resolution: {integrity: sha512-/SNcLv2Ci9I7xJ2lruczleRnOvRByRJEgzBkCk3S67ZtF4BpvnDPwgVMyYsgAqoLgDogNDG8kULPEc3i+Nwfrg==}
     engines: {node: '>=16.13.0'}
     dependencies:
       dotenv: 16.3.1
