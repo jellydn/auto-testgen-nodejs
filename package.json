@@ -27,7 +27,7 @@
     "zod": "3.22.4"
   },
   "devDependencies": {
-    "@grafbase/sdk": "0.14.0",
+    "@grafbase/sdk": "0.15.0",
     "@vitest/coverage-v8": "1.2.0",
     "@vitest/ui": "1.2.0",
     "pythagora": "0.0.80",
