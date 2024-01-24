@@ -9,8 +9,8 @@ dependencies:
     specifier: 0.3.6
     version: 0.3.6
   dotenv:
-    specifier: 16.4.0
-    version: 16.4.0
+    specifier: 16.4.1
+    version: 16.4.1
   drizzle-kit:
     specifier: 0.20.13
     version: 0.20.13
@@ -798,7 +798,7 @@ packages:
     resolution: {integrity: sha512-z+FW7Xk+orqg6s6j6OJjPyeY7Nd2DAYkDer9An7kMuDZVnF+xgkWRA18j6lPRFzEloBWWktSR7P9zu1z9G/XaQ==}
     engines: {node: '>=16.13.0'}
     dependencies:
-      dotenv: 16.4.0
+      dotenv: 16.4.1
       type-fest: 3.13.1
     dev: true
 
@@ -2235,8 +2235,8 @@ packages:
       path-type: 4.0.0
     dev: true
 
-  /dotenv@16.4.0:
-    resolution: {integrity: sha512-WvImr5kpN5NGNn7KaDjJnLTh5rDVLZiDf/YLA8T1ZEZEBZNEDOE+mnkS0PVjPax8ZxBP5zC5SLMB3/9VV5de9g==}
+  /dotenv@16.4.1:
+    resolution: {integrity: sha512-CjA3y+Dr3FyFDOAMnxZEGtnW9KBR2M0JvvUtXNW+dYJL5ROWxP9DUHCwgFqpMk0OXCc0ljhaNTr2w/kutYIcHQ==}
     engines: {node: '>=12'}
 
   /dreamopt@0.8.0:
