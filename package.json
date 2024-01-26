@@ -28,13 +28,13 @@
   },
   "devDependencies": {
     "@grafbase/sdk": "0.16.0",
-    "@vitest/coverage-v8": "1.2.1",
-    "@vitest/ui": "1.2.1",
+    "@vitest/coverage-v8": "1.2.2",
+    "@vitest/ui": "1.2.2",
     "pythagora": "0.0.80",
     "tsup": "8.0.1",
     "tsx": "4.7.0",
     "typescript": "5.3.3",
     "vite": "5.0.12",
-    "vitest": "1.2.1"
+    "vitest": "1.2.2"
   }
 }
