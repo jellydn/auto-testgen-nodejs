@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@libsql/client':
-    specifier: 0.4.0
-    version: 0.4.0
+    specifier: 0.4.2
+    version: 0.4.2
   dotenv:
     specifier: 16.4.1
     version: 16.4.1
@@ -16,7 +16,7 @@ dependencies:
     version: 0.20.13
   drizzle-orm:
     specifier: 0.29.3
-    version: 0.29.3(@libsql/client@0.4.0)
+    version: 0.29.3(@libsql/client@0.4.2)
   znv:
     specifier: 0.4.0
     version: 0.4.0(zod@3.22.4)
@@ -1074,10 +1074,10 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@libsql/client@0.4.0:
-    resolution: {integrity: sha512-GjBHHxRMKomG2rLx6K8BYsDhk9jNcKXpkEOO7luPTCje4z41ogD0sCaBRcGbJw9h3HMVysCW5v70WmjQ4/FWpg==}
+  /@libsql/client@0.4.2:
+    resolution: {integrity: sha512-aH5Z2zuCcHju+50L9sX4SKExihFd/0YGaSa89kct91sglD92Inj/BgbBvtNWcppwv4ipQuP0kRRNwXfJhOZRWQ==}
     dependencies:
-      '@libsql/core': 0.4.0
+      '@libsql/core': 0.4.2
       '@libsql/hrana-client': 0.5.6
       js-base64: 3.7.6
       libsql: 0.2.0
@@ -1087,8 +1087,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@libsql/core@0.4.0:
-    resolution: {integrity: sha512-pQHyZI0aTBlBm08dpB+/SEqLDe5wlgiUY+VNXbCD8yZhXo30AGinyrDlKrtGW7luo0As4Y9v1befurJdLKbC0Q==}
+  /@libsql/core@0.4.2:
+    resolution: {integrity: sha512-HlH7P3yMUJBuj/BfGKfSTc5YbBeLlVXoXz6tRNw0ughH2wtl+iXVzwWS4h7WscGgI9PiVDHC0zQxBuU6YK5fmA==}
     dependencies:
       js-base64: 3.7.6
     dev: false
@@ -2275,7 +2275,7 @@ packages:
       - supports-color
     dev: false
 
-  /drizzle-orm@0.29.3(@libsql/client@0.4.0):
+  /drizzle-orm@0.29.3(@libsql/client@0.4.2):
     resolution: {integrity: sha512-uSE027csliGSGYD0pqtM+SAQATMREb3eSM/U8s6r+Y0RFwTKwftnwwSkqx3oS65UBgqDOM0gMTl5UGNpt6lW0A==}
     peerDependencies:
       '@aws-sdk/client-rds-data': '>=3'
@@ -2346,7 +2346,7 @@ packages:
       sqlite3:
         optional: true
     dependencies:
-      '@libsql/client': 0.4.0
+      '@libsql/client': 0.4.2
     dev: false
 
   /eastasianwidth@0.2.0:
