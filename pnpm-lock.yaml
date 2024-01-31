@@ -26,8 +26,8 @@ dependencies:
 
 devDependencies:
   '@grafbase/sdk':
-    specifier: 0.16.0
-    version: 0.16.0
+    specifier: 0.17.0
+    version: 0.17.0
   '@vitest/coverage-v8':
     specifier: 1.2.2
     version: 1.2.2(vitest@1.2.2)
@@ -794,12 +794,12 @@ packages:
     requiresBuild: true
     optional: true
 
-  /@grafbase/sdk@0.16.0:
-    resolution: {integrity: sha512-z+FW7Xk+orqg6s6j6OJjPyeY7Nd2DAYkDer9An7kMuDZVnF+xgkWRA18j6lPRFzEloBWWktSR7P9zu1z9G/XaQ==}
+  /@grafbase/sdk@0.17.0:
+    resolution: {integrity: sha512-3XJAwGFIeaU4TcoTzxjbRnyBPBVQ0jv+/lcrF8y0UM0j+95JfOgnvg7B3CVam9E+vqP1Env02v3QRc/vqwMmPA==}
     engines: {node: '>=16.13.0'}
     dependencies:
       dotenv: 16.4.1
-      type-fest: 3.13.1
+      type-fest: 4.10.2
     dev: true
 
   /@isaacs/cliui@8.0.2:
@@ -4828,9 +4828,9 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /type-fest@3.13.1:
-    resolution: {integrity: sha512-tLq3bSNx+xSpwvAJnzrK0Ep5CLNWjvFTOp71URMaAEWBfRb9nnJiBoUe0tF8bI4ZFO3omgBR6NvnbzVUT3Ly4g==}
-    engines: {node: '>=14.16'}
+  /type-fest@4.10.2:
+    resolution: {integrity: sha512-anpAG63wSpdEbLwOqH8L84urkL6PiVIov3EMmgIhhThevh9aiMQov+6Btx0wldNcvm4wV+e2/Rt1QdDwKHFbHw==}
+    engines: {node: '>=16'}
     dev: true
 
   /type-is@1.6.18:
