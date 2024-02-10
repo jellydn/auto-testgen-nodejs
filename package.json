@@ -31,7 +31,7 @@
     "@vitest/coverage-v8": "1.2.2",
     "@vitest/ui": "1.2.2",
     "pythagora": "0.0.80",
-    "tsup": "8.0.1",
+    "tsup": "8.0.2",
     "tsx": "4.7.1",
     "typescript": "5.3.3",
     "vite": "5.1.1",
