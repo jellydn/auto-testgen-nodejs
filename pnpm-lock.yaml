@@ -9,8 +9,8 @@ dependencies:
     specifier: 0.4.3
     version: 0.4.3
   dotenv:
-    specifier: 16.4.3
-    version: 16.4.3
+    specifier: 16.4.4
+    version: 16.4.4
   drizzle-kit:
     specifier: 0.20.14
     version: 0.20.14
@@ -26,8 +26,8 @@ dependencies:
 
 devDependencies:
   '@grafbase/sdk':
-    specifier: 0.17.0
-    version: 0.17.0
+    specifier: 0.18.0
+    version: 0.18.0
   '@vitest/coverage-v8':
     specifier: 1.2.2
     version: 1.2.2(vitest@1.2.2)
@@ -794,11 +794,11 @@ packages:
     requiresBuild: true
     optional: true
 
-  /@grafbase/sdk@0.17.0:
-    resolution: {integrity: sha512-3XJAwGFIeaU4TcoTzxjbRnyBPBVQ0jv+/lcrF8y0UM0j+95JfOgnvg7B3CVam9E+vqP1Env02v3QRc/vqwMmPA==}
+  /@grafbase/sdk@0.18.0:
+    resolution: {integrity: sha512-A5TDxIUdJt/8RMDNmTv8B2M2f62FseLFN1brjsqrnSmCyOR+FELDl6U5Wy/6s7yCXBJoIDMsIw9oLb+4OhVbUw==}
     engines: {node: '>=16.13.0'}
     dependencies:
-      dotenv: 16.4.3
+      dotenv: 16.4.4
       type-fest: 4.10.2
     dev: true
 
@@ -2250,8 +2250,8 @@ packages:
       path-type: 4.0.0
     dev: true
 
-  /dotenv@16.4.3:
-    resolution: {integrity: sha512-II98GFrje5psQTSve0E7bnwMFybNLqT8Vu8JIFWRjsE3khyNUm/loZupuy5DVzG2IXf/ysxvrixYOQnM6mjD3A==}
+  /dotenv@16.4.4:
+    resolution: {integrity: sha512-XvPXc8XAQThSjAbY6cQ/9PcBXmFoWuw1sQ3b8HqUCR6ziGXjkTi//kB9SWa2UwqlgdAIuRqAa/9hVljzPehbYg==}
     engines: {node: '>=12'}
 
   /dreamopt@0.8.0:
