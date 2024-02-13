@@ -20,14 +20,14 @@
   },
   "dependencies": {
     "@libsql/client": "0.4.3",
-    "dotenv": "16.4.3",
+    "dotenv": "16.4.4",
     "drizzle-kit": "0.20.14",
     "drizzle-orm": "0.29.3",
     "znv": "0.4.0",
     "zod": "3.22.4"
   },
   "devDependencies": {
-    "@grafbase/sdk": "0.17.0",
+    "@grafbase/sdk": "0.18.0",
     "@vitest/coverage-v8": "1.2.2",
     "@vitest/ui": "1.2.2",
     "pythagora": "0.0.80",
