@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@libsql/client": "0.5.1",
-    "dotenv": "16.4.4",
+    "dotenv": "16.4.5",
     "drizzle-kit": "0.20.14",
     "drizzle-orm": "0.29.3",
     "znv": "0.4.0",
