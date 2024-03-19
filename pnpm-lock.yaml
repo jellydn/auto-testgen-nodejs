@@ -15,8 +15,8 @@ dependencies:
     specifier: 0.20.14
     version: 0.20.14
   drizzle-orm:
-    specifier: 0.30.3
-    version: 0.30.3(@libsql/client@0.5.6)
+    specifier: 0.30.4
+    version: 0.30.4(@libsql/client@0.5.6)
   znv:
     specifier: 0.4.0
     version: 0.4.0(zod@3.22.4)
@@ -2282,8 +2282,8 @@ packages:
       - supports-color
     dev: false
 
-  /drizzle-orm@0.30.3(@libsql/client@0.5.6):
-    resolution: {integrity: sha512-tmIUPy71Ca7BUD5M7Tn9bvXESDWoj66d6lTdKCdf30V26xDFFjbx7DMamhOiWU+H1fflBk5rCdtGyt2SiFPgRg==}
+  /drizzle-orm@0.30.4(@libsql/client@0.5.6):
+    resolution: {integrity: sha512-kWoSMGbrOFkmkAweLTFtHJMpN+nwhx89q0mLELqT2aEU+1szNV8jrnBmJwZ0WGNp7J7yQn/ezEtxBI/qzTSElQ==}
     peerDependencies:
       '@aws-sdk/client-rds-data': '>=3'
       '@cloudflare/workers-types': '>=3'
@@ -2297,6 +2297,7 @@ packages:
       '@types/react': '>=18'
       '@types/sql.js': '*'
       '@vercel/postgres': '*'
+      '@xata.io/client': '*'
       better-sqlite3: '>=7'
       bun-types: '*'
       expo-sqlite: '>=13.2.0'
@@ -2332,6 +2333,8 @@ packages:
       '@types/sql.js':
         optional: true
       '@vercel/postgres':
+        optional: true
+      '@xata.io/client':
         optional: true
       better-sqlite3:
         optional: true
