@@ -28,8 +28,8 @@ importers:
         version: 3.22.4
     devDependencies:
       '@grafbase/sdk':
-        specifier: 0.20.0
-        version: 0.20.0
+        specifier: 0.21.0
+        version: 0.21.0
       '@vitest/coverage-v8':
         specifier: 1.5.0
         version: 1.5.0(vitest@1.5.0(@types/node@20.12.7)(@vitest/ui@1.5.0))
@@ -645,8 +645,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@grafbase/sdk@0.20.0':
-    resolution: {integrity: sha512-g/lDo/fKPyJjBuJGQqLUTgsiIRMX9nk3Dl4dAJWb9fsE3czeLQkqoh+J5Ue5ZK6YDmki4PE4XAwvAPv2RmKfhA==}
+  '@grafbase/sdk@0.21.0':
+    resolution: {integrity: sha512-X1aZ4vJq6+FwarCUzQVvf2e5rGXexESdtAvBNW2MHawNL6xrSIH4CpmuRMPI/2XDEGwlDlpet4n61ZFrr3K8iQ==}
     engines: {node: '>=16.13.0'}
 
   '@isaacs/cliui@8.0.2':
@@ -3444,7 +3444,7 @@ snapshots:
   '@esbuild/win32-x64@0.20.2':
     optional: true
 
-  '@grafbase/sdk@0.20.0':
+  '@grafbase/sdk@0.21.0':
     dependencies:
       dotenv: 16.4.5
       type-fest: 4.15.0
