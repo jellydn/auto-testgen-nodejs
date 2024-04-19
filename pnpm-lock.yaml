@@ -22,10 +22,10 @@ importers:
         version: 0.30.8(@libsql/client@0.6.0)
       znv:
         specifier: 0.4.0
-        version: 0.4.0(zod@3.22.4)
+        version: 0.4.0(zod@3.22.5)
       zod:
-        specifier: 3.22.4
-        version: 3.22.4
+        specifier: 3.22.5
+        version: 3.22.5
     devDependencies:
       '@grafbase/sdk':
         specifier: 0.21.0
@@ -3016,8 +3016,8 @@ packages:
     peerDependencies:
       zod: ^3.13.2
 
-  zod@3.22.4:
-    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
+  zod@3.22.5:
+    resolution: {integrity: sha512-HqnGsCdVZ2xc0qWPLdO25WnseXThh0kEYKIdV5F/hTHO75hNZFp8thxSeHhiPrHZKrFTo1SOgkAj9po5bexZlw==}
 
 snapshots:
 
@@ -4351,7 +4351,7 @@ snapshots:
       json-diff: 0.9.0
       minimatch: 7.4.6
       semver: 7.6.0
-      zod: 3.22.4
+      zod: 3.22.5
     transitivePeerDependencies:
       - supports-color
 
@@ -6165,9 +6165,9 @@ snapshots:
 
   yocto-queue@1.0.0: {}
 
-  znv@0.4.0(zod@3.22.4):
+  znv@0.4.0(zod@3.22.5):
     dependencies:
       colorette: 2.0.20
-      zod: 3.22.4
+      zod: 3.22.5
 
-  zod@3.22.4: {}
+  zod@3.22.5: {}
