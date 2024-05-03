@@ -22,10 +22,10 @@ importers:
         version: 0.30.10(@libsql/client@0.6.0)
       znv:
         specifier: 0.4.0
-        version: 0.4.0(zod@3.23.5)
+        version: 0.4.0(zod@3.23.6)
       zod:
-        specifier: 3.23.5
-        version: 3.23.5
+        specifier: 3.23.6
+        version: 3.23.6
     devDependencies:
       '@grafbase/sdk':
         specifier: 0.23.0
@@ -3031,8 +3031,8 @@ packages:
     peerDependencies:
       zod: ^3.13.2
 
-  zod@3.23.5:
-    resolution: {integrity: sha512-fkwiq0VIQTksNNA131rDOsVJcns0pfVUjHzLrNBiF/O/Xxb5lQyEXkhZWcJ7npWsYlvs+h0jFWXXy4X46Em1JA==}
+  zod@3.23.6:
+    resolution: {integrity: sha512-RTHJlZhsRbuA8Hmp/iNL7jnfc4nZishjsanDAfEY1QpDQZCahUp3xDzl+zfweE9BklxMUcgBgS1b7Lvie/ZVwA==}
 
 snapshots:
 
@@ -3462,10 +3462,10 @@ snapshots:
 
   '@hono/node-server@1.11.1': {}
 
-  '@hono/zod-validator@0.2.1(hono@4.2.8)(zod@3.23.5)':
+  '@hono/zod-validator@0.2.1(hono@4.2.8)(zod@3.23.6)':
     dependencies:
       hono: 4.2.8
-      zod: 3.23.5
+      zod: 3.23.6
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -4363,7 +4363,7 @@ snapshots:
     dependencies:
       '@esbuild-kit/esm-loader': 2.6.5
       '@hono/node-server': 1.11.1
-      '@hono/zod-validator': 0.2.1(hono@4.2.8)(zod@3.23.5)
+      '@hono/zod-validator': 0.2.1(hono@4.2.8)(zod@3.23.6)
       camelcase: 7.0.1
       chalk: 5.3.0
       commander: 9.5.0
@@ -4377,7 +4377,7 @@ snapshots:
       minimatch: 7.4.6
       semver: 7.6.0
       superjson: 2.2.1
-      zod: 3.23.5
+      zod: 3.23.6
     transitivePeerDependencies:
       - supports-color
 
@@ -6192,9 +6192,9 @@ snapshots:
 
   yocto-queue@1.0.0: {}
 
-  znv@0.4.0(zod@3.23.5):
+  znv@0.4.0(zod@3.23.6):
     dependencies:
       colorette: 2.0.20
-      zod: 3.23.5
+      zod: 3.23.6
 
-  zod@3.23.5: {}
+  zod@3.23.6: {}
