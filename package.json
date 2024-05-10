@@ -21,7 +21,7 @@
   "dependencies": {
     "@libsql/client": "0.6.0",
     "dotenv": "16.4.5",
-    "drizzle-kit": "0.21.0",
+    "drizzle-kit": "0.21.1",
     "drizzle-orm": "0.30.10",
     "znv": "0.4.0",
     "zod": "3.23.8"
@@ -32,7 +32,7 @@
     "@vitest/ui": "1.6.0",
     "pythagora": "0.0.80",
     "tsup": "8.0.2",
-    "tsx": "4.9.3",
+    "tsx": "4.9.4",
     "typescript": "5.4.5",
     "vite": "5.2.11",
     "vitest": "1.6.0"
