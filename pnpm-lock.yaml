@@ -15,8 +15,8 @@ importers:
         specifier: 16.4.5
         version: 16.4.5
       drizzle-kit:
-        specifier: 0.21.3
-        version: 0.21.3
+        specifier: 0.21.4
+        version: 0.21.4
       drizzle-orm:
         specifier: 0.30.10
         version: 0.30.10(@libsql/client@0.6.0)
@@ -1387,8 +1387,8 @@ packages:
     resolution: {integrity: sha512-vyJTp8+mC+G+5dfgsY+r3ckxlz+QMX40VjPQsZc5gxVAxLmi64TBoVkP54A/pRAXMXsbu2GMMBrZPxNv23waMg==}
     engines: {node: '>=0.4.0'}
 
-  drizzle-kit@0.21.3:
-    resolution: {integrity: sha512-BqLkHBucr32OOZ/16mMSUFKGBcoBYwZnOLkLMbaSVmd8shTVAjOdh2mleI7c/iw70ZcKlL53n3SFlUlKLzy2lQ==}
+  drizzle-kit@0.21.4:
+    resolution: {integrity: sha512-Nxcc1ONJLRgbhmR+azxjNF9Ly9privNLEIgW53c92whb4xp8jZLH1kMCh/54ci1mTMuYxPdOukqLwJ8wRudNwA==}
     hasBin: true
 
   drizzle-orm@0.30.10:
@@ -4299,7 +4299,7 @@ snapshots:
     dependencies:
       wordwrap: 1.0.0
 
-  drizzle-kit@0.21.3:
+  drizzle-kit@0.21.4:
     dependencies:
       '@esbuild-kit/esm-loader': 2.6.5
       commander: 9.5.0
