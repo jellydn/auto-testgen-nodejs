@@ -40,8 +40,8 @@ importers:
         specifier: 0.0.80
         version: 0.0.80(@types/node@20.14.11)
       tsup:
-        specifier: 8.2.2
-        version: 8.2.2(postcss@8.4.39)(tsx@4.16.2)(typescript@5.5.4)
+        specifier: 8.2.3
+        version: 8.2.3(postcss@8.4.39)(tsx@4.16.2)(typescript@5.5.4)
       tsx:
         specifier: 4.16.2
         version: 4.16.2
@@ -2798,8 +2798,8 @@ packages:
   ts-interface-checker@0.1.13:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
 
-  tsup@8.2.2:
-    resolution: {integrity: sha512-MufIuzdSt6HYPOeOtjUXLR4rqRJySi6XsRNZdwvjC2XR+xghsu2L3vSmYmX+k4S1mO6j0OlUEyVQ3Fc0H66XcA==}
+  tsup@8.2.3:
+    resolution: {integrity: sha512-6YNT44oUfXRbZuSMNmN36GzwPPIlD2wBccY7looM2fkTcxkf2NEmwr3OZuDZoySklnrIG4hoEtzy8yUXYOqNcg==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
@@ -5864,7 +5864,7 @@ snapshots:
 
   ts-interface-checker@0.1.13: {}
 
-  tsup@8.2.2(postcss@8.4.39)(tsx@4.16.2)(typescript@5.5.4):
+  tsup@8.2.3(postcss@8.4.39)(tsx@4.16.2)(typescript@5.5.4):
     dependencies:
       bundle-require: 5.0.0(esbuild@0.23.0)
       cac: 6.7.14
