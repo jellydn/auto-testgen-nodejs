@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@libsql/client':
-        specifier: 0.8.0
-        version: 0.8.0
+        specifier: 0.8.1
+        version: 0.8.1
       dotenv:
         specifier: 16.4.5
         version: 16.4.5
@@ -19,7 +19,7 @@ importers:
         version: 0.23.1
       drizzle-orm:
         specifier: 0.32.1
-        version: 0.32.1(@libsql/client@0.8.0)
+        version: 0.32.1(@libsql/client@0.8.1)
       znv:
         specifier: 0.4.0
         version: 0.4.0(zod@3.23.8)
@@ -873,11 +873,11 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@libsql/client@0.8.0':
-    resolution: {integrity: sha512-ncx6p2wsaZtCAbRJCIkaTO14ya18qFYLJ1yTm5zHgwd9mlcvgenG4imSgJy2zNrKJkeyr1wzD+80jNqI7nCYoA==}
+  '@libsql/client@0.8.1':
+    resolution: {integrity: sha512-xGg0F4iTDFpeBZ0r4pA6icGsYa5rG6RAG+i/iLDnpCAnSuTqEWMDdPlVseiq4Z/91lWI9jvvKKiKpovqJ1kZWA==}
 
-  '@libsql/core@0.8.0':
-    resolution: {integrity: sha512-Bqs7bKfUNwm8NTLfKPbI4WME+3BTEBeDZTec0b9XZQ9hvjM4YlGXKKCuIDm8ECUYx4Mb1Gc0X14pm2/4r6ImdA==}
+  '@libsql/core@0.8.1':
+    resolution: {integrity: sha512-u6nrj6HZMTPsgJ9EBhLzO2uhqhlHQJQmVHV+0yFLvfGf3oSP8w7TjZCNUgu1G8jHISx6KFi7bmcrdXW9lRt++A==}
 
   '@libsql/darwin-arm64@0.3.19':
     resolution: {integrity: sha512-rmOqsLcDI65zzxlUOoEiPJLhqmbFsZF6p4UJQ2kMqB+Kc0Rt5/A1OAdOZ/Wo8fQfJWjR1IbkbpEINFioyKf+nQ==}
@@ -3720,9 +3720,9 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@libsql/client@0.8.0':
+  '@libsql/client@0.8.1':
     dependencies:
-      '@libsql/core': 0.8.0
+      '@libsql/core': 0.8.1
       '@libsql/hrana-client': 0.6.2
       js-base64: 3.7.7
       libsql: 0.3.19
@@ -3731,7 +3731,7 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@libsql/core@0.8.0':
+  '@libsql/core@0.8.1':
     dependencies:
       js-base64: 3.7.7
 
@@ -4386,9 +4386,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  drizzle-orm@0.32.1(@libsql/client@0.8.0):
+  drizzle-orm@0.32.1(@libsql/client@0.8.1):
     optionalDependencies:
-      '@libsql/client': 0.8.0
+      '@libsql/client': 0.8.1
 
   eastasianwidth@0.2.0: {}
 
