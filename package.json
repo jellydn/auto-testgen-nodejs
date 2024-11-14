@@ -21,8 +21,8 @@
   "dependencies": {
     "@libsql/client": "0.14.0",
     "dotenv": "16.4.5",
-    "drizzle-kit": "0.28.0",
-    "drizzle-orm": "0.36.1",
+    "drizzle-kit": "0.28.1",
+    "drizzle-orm": "0.36.2",
     "znv": "0.4.0",
     "zod": "3.23.8"
   },
