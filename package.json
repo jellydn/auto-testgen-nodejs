@@ -24,7 +24,7 @@
     "drizzle-kit": "0.30.0",
     "drizzle-orm": "0.38.0",
     "znv": "0.4.0",
-    "zod": "3.23.8"
+    "zod": "3.24.0"
   },
   "devDependencies": {
     "@grafbase/sdk": "0.27.4",
