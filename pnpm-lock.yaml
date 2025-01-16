@@ -15,11 +15,11 @@ importers:
         specifier: 16.4.7
         version: 16.4.7
       drizzle-kit:
-        specifier: 0.30.1
-        version: 0.30.1
+        specifier: 0.30.2
+        version: 0.30.2
       drizzle-orm:
-        specifier: 0.38.3
-        version: 0.38.3(@libsql/client@0.14.0)
+        specifier: 0.38.4
+        version: 0.38.4(@libsql/client@0.14.0)
       znv:
         specifier: 0.4.0
         version: 0.4.0(zod@3.24.1)
@@ -1660,12 +1660,12 @@ packages:
     resolution: {integrity: sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ==}
     engines: {node: '>=12'}
 
-  drizzle-kit@0.30.1:
-    resolution: {integrity: sha512-HmA/NeewvHywhJ2ENXD3KvOuM/+K2dGLJfxVfIHsGwaqKICJnS+Ke2L6UcSrSrtMJLJaT0Im1Qv4TFXfaZShyw==}
+  drizzle-kit@0.30.2:
+    resolution: {integrity: sha512-vhdLrxWA32WNVF77NabpSnX7pQBornx64VDQDmKddRonOB2Xe/yY4glQ7rECoa+ogqcQNo7VblLUbeBK6Zn9Ow==}
     hasBin: true
 
-  drizzle-orm@0.38.3:
-    resolution: {integrity: sha512-w41Y+PquMpSff/QDRGdItG0/aWca+/J3Sda9PPGkTxBtjWQvgU1jxlFBXdjog5tYvTu58uvi3PwR1NuCx0KeZg==}
+  drizzle-orm@0.38.4:
+    resolution: {integrity: sha512-s7/5BpLKO+WJRHspvpqTydxFob8i1vo2rEx4pY6TGY7QSMuUfWUuzaY0DIpXCkgHOo37BaFC+SJQb99dDUXT3Q==}
     peerDependencies:
       '@aws-sdk/client-rds-data': '>=3'
       '@cloudflare/workers-types': '>=4'
@@ -4568,7 +4568,7 @@ snapshots:
 
   dotenv@16.4.7: {}
 
-  drizzle-kit@0.30.1:
+  drizzle-kit@0.30.2:
     dependencies:
       '@drizzle-team/brocli': 0.10.2
       '@esbuild-kit/esm-loader': 2.6.5
@@ -4577,7 +4577,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  drizzle-orm@0.38.3(@libsql/client@0.14.0):
+  drizzle-orm@0.38.4(@libsql/client@0.14.0):
     optionalDependencies:
       '@libsql/client': 0.14.0
 
