@@ -22,7 +22,7 @@
     "@libsql/client": "0.15.0",
     "dotenv": "16.4.7",
     "drizzle-kit": "0.30.5",
-    "drizzle-orm": "0.40.1",
+    "drizzle-orm": "0.41.0",
     "znv": "0.4.0",
     "zod": "3.24.2"
   },
