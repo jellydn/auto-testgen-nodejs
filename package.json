@@ -19,11 +19,11 @@
     "up": "drizzle-kit up:sqlite"
   },
   "dependencies": {
-    "@libsql/client": "0.15.0",
+    "@libsql/client": "0.15.1",
     "dotenv": "16.4.7",
     "drizzle-kit": "0.30.5",
     "drizzle-orm": "0.41.0",
-    "znv": "0.4.0",
+    "znv": "0.5.0",
     "zod": "3.24.2"
   },
   "devDependencies": {
@@ -34,7 +34,7 @@
     "tsup": "8.4.0",
     "tsx": "4.19.3",
     "typescript": "5.8.2",
-    "vite": "6.2.2",
+    "vite": "6.2.3",
     "vitest": "3.0.9"
   }
 }
