@@ -12,8 +12,8 @@ importers:
         specifier: 0.15.2
         version: 0.15.2
       dotenv:
-        specifier: 16.4.7
-        version: 16.4.7
+        specifier: 16.5.0
+        version: 16.5.0
       drizzle-kit:
         specifier: 0.30.6
         version: 0.30.6
@@ -1383,8 +1383,8 @@ packages:
     resolution: {integrity: sha512-EjePK1srD3P08o2j4f0ExnylqRs5B9tJjcp9t1krH2qRi8CCdsYfwe9JgSLurFBWwq4uOlipzfk5fHNvwFKr8Q==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
 
-  dotenv@16.4.7:
-    resolution: {integrity: sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ==}
+  dotenv@16.5.0:
+    resolution: {integrity: sha512-m/C+AwOAr9/W1UOIZUo232ejMNnJAJtYQjUbHoNTBNTJSvqzzDh7vnrei3o3r3m9blf6ZoDkvcw0VmozNRFJxg==}
     engines: {node: '>=12'}
 
   drizzle-kit@0.30.6:
@@ -3340,7 +3340,7 @@ snapshots:
 
   '@grafbase/sdk@0.27.4':
     dependencies:
-      dotenv: 16.4.7
+      dotenv: 16.5.0
       type-fest: 4.39.1
 
   '@isaacs/cliui@8.0.2':
@@ -4183,7 +4183,7 @@ snapshots:
 
   diff-sequences@29.6.3: {}
 
-  dotenv@16.4.7: {}
+  dotenv@16.5.0: {}
 
   drizzle-kit@0.30.6:
     dependencies:
