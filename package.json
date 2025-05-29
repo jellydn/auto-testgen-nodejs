@@ -22,9 +22,9 @@
     "@libsql/client": "0.15.7",
     "dotenv": "16.5.0",
     "drizzle-kit": "0.31.1",
-    "drizzle-orm": "0.43.1",
+    "drizzle-orm": "0.44.0",
     "znv": "0.5.0",
-    "zod": "3.25.32"
+    "zod": "3.25.34"
   },
   "devDependencies": {
     "@grafbase/sdk": "0.27.4",

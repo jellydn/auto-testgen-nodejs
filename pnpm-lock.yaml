@@ -18,14 +18,14 @@ importers:
         specifier: 0.31.1
         version: 0.31.1
       drizzle-orm:
-        specifier: 0.43.1
-        version: 0.43.1(@libsql/client@0.15.7)
+        specifier: 0.44.0
+        version: 0.44.0(@libsql/client@0.15.7)
       znv:
         specifier: 0.5.0
-        version: 0.5.0(zod@3.25.32)
+        version: 0.5.0(zod@3.25.34)
       zod:
-        specifier: 3.25.32
-        version: 3.25.32
+        specifier: 3.25.34
+        version: 3.25.34
     devDependencies:
       '@grafbase/sdk':
         specifier: 0.27.4
@@ -1268,8 +1268,8 @@ packages:
     resolution: {integrity: sha512-PUjYKWtzOzPtdtQlTHQG3qfv4Y0XT8+Eas6UbxCmxTj7qgMf+39dDujf1BP1I+qqZtw9uzwTh8jYtkMuCq+B0Q==}
     hasBin: true
 
-  drizzle-orm@0.43.1:
-    resolution: {integrity: sha512-dUcDaZtE/zN4RV/xqGrVSMpnEczxd5cIaoDeor7Zst9wOe/HzC/7eAaulywWGYXdDEc9oBPMjayVEDg0ziTLJA==}
+  drizzle-orm@0.44.0:
+    resolution: {integrity: sha512-/8wYepe887Gp1eCVILKitNegclGLPUMdK4oDDyDftKJOeHoCylY+XM++chMJloy9oKTceWOALiQMl2aAuFuPTw==}
     peerDependencies:
       '@aws-sdk/client-rds-data': '>=3'
       '@cloudflare/workers-types': '>=4'
@@ -1285,6 +1285,7 @@ packages:
       '@types/better-sqlite3': '*'
       '@types/pg': '*'
       '@types/sql.js': '*'
+      '@upstash/redis': '>=1.34.7'
       '@vercel/postgres': '>=0.8.0'
       '@xata.io/client': '*'
       better-sqlite3: '>=7'
@@ -1327,6 +1328,8 @@ packages:
       '@types/pg':
         optional: true
       '@types/sql.js':
+        optional: true
+      '@upstash/redis':
         optional: true
       '@vercel/postgres':
         optional: true
@@ -2780,8 +2783,8 @@ packages:
     peerDependencies:
       zod: ^3.24.2
 
-  zod@3.25.32:
-    resolution: {integrity: sha512-OSm2xTIRfW8CV5/QKgngwmQW/8aPfGdaQFlrGoErlgg/Epm7cjb6K6VEyExfe65a3VybUOnu381edLb0dfJl0g==}
+  zod@3.25.34:
+    resolution: {integrity: sha512-lZHvSc2PpWdcfpHlyB33HA9nqP16GpC9IpiG4lYq9jZCJVLZNnWd6Y1cj79bcLSBKTkxepfpjckPv5Y5VOPlwA==}
 
 snapshots:
 
@@ -3996,7 +3999,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  drizzle-orm@0.43.1(@libsql/client@0.15.7):
+  drizzle-orm@0.44.0(@libsql/client@0.15.7):
     optionalDependencies:
       '@libsql/client': 0.15.7
 
@@ -5676,8 +5679,8 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  znv@0.5.0(zod@3.25.32):
+  znv@0.5.0(zod@3.25.34):
     dependencies:
-      zod: 3.25.32
+      zod: 3.25.34
 
-  zod@3.25.32: {}
+  zod@3.25.34: {}
