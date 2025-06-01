@@ -22,10 +22,10 @@ importers:
         version: 0.44.1(@libsql/client@0.15.8)
       znv:
         specifier: 0.5.0
-        version: 0.5.0(zod@3.25.45)
+        version: 0.5.0(zod@3.25.46)
       zod:
-        specifier: 3.25.45
-        version: 3.25.45
+        specifier: 3.25.46
+        version: 3.25.46
     devDependencies:
       '@grafbase/sdk':
         specifier: 0.27.4
@@ -2783,8 +2783,8 @@ packages:
     peerDependencies:
       zod: ^3.24.2
 
-  zod@3.25.45:
-    resolution: {integrity: sha512-kv1swJBZqv98NQibL0oVvkQE8rXT+6qGNM1FpZkFcJG2jnz4vbtu48bgaitp85CaBPLSKXibrEsU7MzJoVoZAA==}
+  zod@3.25.46:
+    resolution: {integrity: sha512-IqRxcHEIjqLd4LNS/zKffB3Jzg3NwqJxQQ0Ns7pdrvgGkwQsEBdEQcOHaBVqvvZArShRzI39+aMST3FBGmTrLQ==}
 
 snapshots:
 
@@ -5679,8 +5679,8 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  znv@0.5.0(zod@3.25.45):
+  znv@0.5.0(zod@3.25.46):
     dependencies:
-      zod: 3.25.45
+      zod: 3.25.46
 
-  zod@3.25.45: {}
+  zod@3.25.46: {}
