@@ -24,7 +24,7 @@
     "drizzle-kit": "0.31.1",
     "drizzle-orm": "0.44.2",
     "znv": "0.5.0",
-    "zod": "3.25.57"
+    "zod": "3.25.61"
   },
   "devDependencies": {
     "@grafbase/sdk": "0.27.4",
@@ -32,7 +32,7 @@
     "@vitest/ui": "3.2.3",
     "pythagora": "0.0.80",
     "tsup": "8.5.0",
-    "tsx": "4.19.4",
+    "tsx": "4.20.1",
     "typescript": "5.8.3",
     "vite": "6.3.5",
     "vitest": "3.2.3"
