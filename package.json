@@ -32,7 +32,7 @@
     "@vitest/ui": "3.2.4",
     "pythagora": "0.0.80",
     "tsup": "8.5.1",
-    "tsx": "4.20.6",
+    "tsx": "4.21.0",
     "typescript": "5.9.3",
     "vite": "6.4.1",
     "vitest": "3.2.4"
