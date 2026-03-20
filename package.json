@@ -19,7 +19,7 @@
     "up": "drizzle-kit up:sqlite"
   },
   "dependencies": {
-    "@libsql/client": "0.17.0",
+    "@libsql/client": "0.17.2",
     "dotenv": "16.6.1",
     "drizzle-kit": "0.31.10",
     "drizzle-orm": "0.45.1",
