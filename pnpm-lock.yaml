@@ -41,19 +41,19 @@ importers:
         version: 0.0.80(@types/node@26.1.1)(debug@4.4.3(supports-color@8.1.1))(supports-color@8.1.1)
       tsup:
         specifier: 8.5.1
-        version: 8.5.1(postcss@8.5.23)(supports-color@8.1.1)(tsx@4.23.1)(typescript@5.9.3)
+        version: 8.5.1(postcss@8.5.23)(supports-color@8.1.1)(tsx@4.23.4)(typescript@5.9.3)
       tsx:
-        specifier: 4.23.1
-        version: 4.23.1
+        specifier: 4.23.4
+        version: 4.23.4
       typescript:
         specifier: 5.9.3
         version: 5.9.3
       vite:
         specifier: 6.4.3
-        version: 6.4.3(@types/node@26.1.1)(tsx@4.23.1)
+        version: 6.4.3(@types/node@26.1.1)(tsx@4.23.4)
       vitest:
         specifier: 3.2.7
-        version: 3.2.7(@types/debug@4.1.13)(@types/node@26.1.1)(@vitest/ui@3.2.7)(supports-color@8.1.1)(tsx@4.23.1)
+        version: 3.2.7(@types/debug@4.1.13)(@types/node@26.1.1)(@vitest/ui@3.2.7)(supports-color@8.1.1)(tsx@4.23.4)
 
 packages:
 
@@ -2916,6 +2916,11 @@ packages:
     engines: {node: '>=18.0.0'}
     hasBin: true
 
+  tsx@4.23.4:
+    resolution: {integrity: sha512-ZiUQ8oT/KzN51mJUWPqARYqwFLFJZtGZipRkw1ynHMr9vy3eU77m5yfF3Gzm6meEg/beW+lUu3fHYgskTN2oVQ==}
+    engines: {node: '>=18.0.0'}
+    hasBin: true
+
   type-detect@4.0.8:
     resolution: {integrity: sha512-0fr/mIH1dlO+x7TlcMy+bIDqKPsw/70tVyeHW787goQjhmqaZe10uwLujubK9q9Lg6Fiho1KUKDYz0Z7k7g5/g==}
     engines: {node: '>=4'}
@@ -4146,7 +4151,7 @@ snapshots:
       std-env: 3.10.0
       test-exclude: 7.0.2
       tinyrainbow: 2.0.0
-      vitest: 3.2.7(@types/debug@4.1.13)(@types/node@26.1.1)(@vitest/ui@3.2.7)(supports-color@8.1.1)(tsx@4.23.1)
+      vitest: 3.2.7(@types/debug@4.1.13)(@types/node@26.1.1)(@vitest/ui@3.2.7)(supports-color@8.1.1)(tsx@4.23.4)
     transitivePeerDependencies:
       - supports-color
 
@@ -4158,13 +4163,13 @@ snapshots:
       chai: 5.3.3
       tinyrainbow: 2.0.0
 
-  '@vitest/mocker@3.2.7(vite@6.4.3(@types/node@26.1.1)(tsx@4.23.1))':
+  '@vitest/mocker@3.2.7(vite@6.4.3(@types/node@26.1.1)(tsx@4.23.4))':
     dependencies:
       '@vitest/spy': 3.2.7
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      vite: 6.4.3(@types/node@26.1.1)(tsx@4.23.1)
+      vite: 6.4.3(@types/node@26.1.1)(tsx@4.23.4)
 
   '@vitest/pretty-format@3.2.7':
     dependencies:
@@ -4195,7 +4200,7 @@ snapshots:
       sirv: 3.0.2
       tinyglobby: 0.2.17
       tinyrainbow: 2.0.0
-      vitest: 3.2.7(@types/debug@4.1.13)(@types/node@26.1.1)(@vitest/ui@3.2.7)(supports-color@8.1.1)(tsx@4.23.1)
+      vitest: 3.2.7(@types/debug@4.1.13)(@types/node@26.1.1)(@vitest/ui@3.2.7)(supports-color@8.1.1)(tsx@4.23.4)
 
   '@vitest/utils@3.2.7':
     dependencies:
@@ -5677,12 +5682,12 @@ snapshots:
 
   possible-typed-array-names@1.1.0: {}
 
-  postcss-load-config@6.0.1(postcss@8.5.23)(tsx@4.23.1):
+  postcss-load-config@6.0.1(postcss@8.5.23)(tsx@4.23.4):
     dependencies:
       lilconfig: 3.1.3
     optionalDependencies:
       postcss: 8.5.23
-      tsx: 4.23.1
+      tsx: 4.23.4
 
   postcss@8.5.23:
     dependencies:
@@ -6034,7 +6039,7 @@ snapshots:
 
   ts-interface-checker@0.1.13: {}
 
-  tsup@8.5.1(postcss@8.5.23)(supports-color@8.1.1)(tsx@4.23.1)(typescript@5.9.3):
+  tsup@8.5.1(postcss@8.5.23)(supports-color@8.1.1)(tsx@4.23.4)(typescript@5.9.3):
     dependencies:
       bundle-require: 5.1.0(esbuild@0.27.7)
       cac: 6.7.14
@@ -6045,7 +6050,7 @@ snapshots:
       fix-dts-default-cjs-exports: 1.0.1
       joycon: 3.1.1
       picocolors: 1.1.1
-      postcss-load-config: 6.0.1(postcss@8.5.23)(tsx@4.23.1)
+      postcss-load-config: 6.0.1(postcss@8.5.23)(tsx@4.23.4)
       resolve-from: 5.0.0
       rollup: 4.62.2
       source-map: 0.7.6
@@ -6063,6 +6068,12 @@ snapshots:
       - yaml
 
   tsx@4.23.1:
+    dependencies:
+      esbuild: 0.28.1
+    optionalDependencies:
+      fsevents: 2.3.3
+
+  tsx@4.23.4:
     dependencies:
       esbuild: 0.28.1
     optionalDependencies:
@@ -6120,13 +6131,13 @@ snapshots:
       '@types/istanbul-lib-coverage': 2.0.6
       convert-source-map: 2.0.0
 
-  vite-node@3.2.4(@types/node@26.1.1)(supports-color@8.1.1)(tsx@4.23.1):
+  vite-node@3.2.4(@types/node@26.1.1)(supports-color@8.1.1)(tsx@4.23.4):
     dependencies:
       cac: 6.7.14
       debug: 4.4.3(supports-color@8.1.1)
       es-module-lexer: 1.7.0
       pathe: 2.0.3
-      vite: 6.4.3(@types/node@26.1.1)(tsx@4.23.1)
+      vite: 6.4.3(@types/node@26.1.1)(tsx@4.23.4)
     transitivePeerDependencies:
       - '@types/node'
       - jiti
@@ -6141,7 +6152,7 @@ snapshots:
       - tsx
       - yaml
 
-  vite@6.4.3(@types/node@26.1.1)(tsx@4.23.1):
+  vite@6.4.3(@types/node@26.1.1)(tsx@4.23.4):
     dependencies:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.5)
@@ -6152,13 +6163,13 @@ snapshots:
     optionalDependencies:
       '@types/node': 26.1.1
       fsevents: 2.3.3
-      tsx: 4.23.1
+      tsx: 4.23.4
 
-  vitest@3.2.7(@types/debug@4.1.13)(@types/node@26.1.1)(@vitest/ui@3.2.7)(supports-color@8.1.1)(tsx@4.23.1):
+  vitest@3.2.7(@types/debug@4.1.13)(@types/node@26.1.1)(@vitest/ui@3.2.7)(supports-color@8.1.1)(tsx@4.23.4):
     dependencies:
       '@types/chai': 5.2.3
       '@vitest/expect': 3.2.7
-      '@vitest/mocker': 3.2.7(vite@6.4.3(@types/node@26.1.1)(tsx@4.23.1))
+      '@vitest/mocker': 3.2.7(vite@6.4.3(@types/node@26.1.1)(tsx@4.23.4))
       '@vitest/pretty-format': 3.2.7
       '@vitest/runner': 3.2.7
       '@vitest/snapshot': 3.2.7
@@ -6176,8 +6187,8 @@ snapshots:
       tinyglobby: 0.2.17
       tinypool: 1.1.1
       tinyrainbow: 2.0.0
-      vite: 6.4.3(@types/node@26.1.1)(tsx@4.23.1)
-      vite-node: 3.2.4(@types/node@26.1.1)(supports-color@8.1.1)(tsx@4.23.1)
+      vite: 6.4.3(@types/node@26.1.1)(tsx@4.23.4)
+      vite-node: 3.2.4(@types/node@26.1.1)(supports-color@8.1.1)(tsx@4.23.4)
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/debug': 4.1.13
